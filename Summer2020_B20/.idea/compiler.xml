@@ -4,5 +4,6 @@
     <wildcardResourcePatterns>
       <entry name="Javac" />
     </wildcardResourcePatterns>
+    <bytecodeTargetLevel target="14" />
   </component>
 </project>

@@ -23,17 +23,14 @@ public class RemoveDuplicates {
 
         System.out.println(list);
 
-        ArrayList<Character> nonDup = new ArrayList<>();    //{A, B, C, D}
 
+        ArrayList<Character> nonDup = new ArrayList<>();    //{A, B, C, D}
         for (Character each : list) { // 'A', 'A', 'B', 'B', 'C', 'C'
 
             if (!nonDup.contains(each)) {
                 nonDup.add(each);
             }
-
         }
-
-
         System.out.println(nonDup);
 
 
