@@ -19,7 +19,7 @@ public class Finra1 {
         int num=50;
 
 
-        for (int i = 1; i <50 ; i++) {
+        for (int i = 1; i <=50 ; i++) {
            if(i% 3==0 && i%5==0){
                System.out.print("FINRA ");
            }else if(i%3==0){
