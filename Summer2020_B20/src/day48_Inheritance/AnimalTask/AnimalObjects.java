@@ -21,6 +21,13 @@ public class AnimalObjects {
       fish1.swiming();
       System.out.println(fish1);
 
+      Bird bird1 = new Bird("Blue","small",2,"male","kanarya",0.1);
+
+      bird1.eat();
+      bird1.sleep();
+      bird1.sing();
+        System.out.println(bird1);
+
 
     }
 }
